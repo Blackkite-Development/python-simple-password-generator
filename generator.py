@@ -106,6 +106,3 @@ def get_allowed_chars(upper_case, lower_case, digits, punctuation):
         characters.append(string.punctuation)
 
     return characters
-
-
-print(generate_password(256))
